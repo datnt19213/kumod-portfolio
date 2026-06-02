@@ -4,7 +4,7 @@
  */
 
 const IS_LOCAL = location.hostname === "localhost" || location.hostname === "127.0.0.1";
-const BASE_PATH = IS_LOCAL ? "./" : "/kumo-portfolio/";
+const BASE_PATH = IS_LOCAL ? "./" : "/kumod-portfolio/";
 const TEMPLATE_URL = BASE_PATH + "list.template.html";
 const DETAIL_TEMPLATE_URL = BASE_PATH + "detail.template.html";
 const ADMIN_TEMPLATE_URL = BASE_PATH + "admin.template.html";
